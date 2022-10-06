@@ -1,6 +1,5 @@
 #include<vector>
 #include<algorithm>
-#include<iostream>
 
 typedef struct Block {
     int value;
